@@ -1,0 +1,19 @@
+.bodyOne {
+}
+
+#container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  grid-template-columns: repeat(var(--grid-rows), 1fr);
+}
+
+.box {
+  background-color: blue;
+  display: grid;
+  place-items: center;
+}
+
+:root {
+  --grid-rows: 16;
+}
