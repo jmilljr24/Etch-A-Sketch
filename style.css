@@ -1,15 +1,13 @@
-.bodyOne {
-}
-
 #container {
   display: grid;
   width: 600px;
   height: 600px;
   grid-template-columns: repeat(var(--grid-rows), 1fr);
+  border-style: solid;
 }
 
 .box {
-  background-color: blue;
+  background-color: white;
   display: grid;
   place-items: center;
 }

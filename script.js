@@ -29,3 +29,8 @@ function removeAllChildNodes(parent) {
     parent.removeChild(parent.firstChild);
   }
 }
+
+const hover = document.getElementById("container");
+hover.addEventListener("mouseover", (event) => {
+  event.target.style.backgroundColor = "black";
+});
